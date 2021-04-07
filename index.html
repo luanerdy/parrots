@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/front.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/block/card.css">
+    <link rel="stylesheet" href="assets/css/block/cards.css">
     <link rel="stylesheet" href="assets/css/block/content.css">
     <link rel="stylesheet" href="assets/css/bg-images.css">
     <link rel="stylesheet" href="assets/css/global.css">
@@ -14,19 +16,13 @@
 </head>
 <body>
     <h1>Parrot Card Game</h1>
-    <div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+    <div class="cards">
+        <div class="card" onclick="flipcard()">
+            <div class="frontface"></div>
+            <div class="backface"></div>
+        </div>
     </div>
+
+<script src="assets/js/flipcard.js"></script>
 </body>
 </html>
