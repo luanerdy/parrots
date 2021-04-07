@@ -1,4 +1,4 @@
-function flipcard() {
-    const card = document.querySelector('.card');
-    card.classList.toggle('flipped');
+function flipcard(num) {
+    const card = document.querySelector(num);
+    card.classList.add('flipped');
 }

@@ -1,0 +1,27 @@
+.backface.bobross {
+    background-image: url(../img/bobrossparrot.gif);
+}
+
+.backface.explody {
+    background-image: url(../img/explodyparrot.gif);
+}
+
+.backface.fiesta {
+    background-image: url(../img/fiestaparrot.gif);
+}
+
+.backface.metal {
+    background-image: url(../img/metalparrot.gif);
+}
+
+.backface.revertit {
+    background-image: url(../img/revertitparrot.gif);
+}
+
+.backface.unicorn {
+    background-image: url(../img/unicornparrot.gif);
+}
+
+.backface.triplets {
+    background-image: url(../img/tripletsparrot.gif);
+}
