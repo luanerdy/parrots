@@ -1,8 +1,9 @@
 let time = 0;
+let intervalTimer;
 function timer() {
     
     const timerdiv = document.querySelector('.timer');
-    setInterval(() => {
+    intervalTimer = setInterval(() => {
         
         time++;
 

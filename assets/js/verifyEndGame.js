@@ -9,5 +9,6 @@ function verifyEndGame() {
                 start();
             }
         }, 500);
+        clearInterval(intervalTimer);
     }
 }
