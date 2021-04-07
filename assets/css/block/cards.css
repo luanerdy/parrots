@@ -14,6 +14,10 @@
     margin: 17px;
 }
 
+.blocked {
+    pointer-events: none;
+}
+
 .card > div {
     width: 100%;
     height: 100%;
