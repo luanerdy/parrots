@@ -14,7 +14,7 @@ h1 {
     max-width: 550px;
     font-family: 'Roboto', sans-serif;
     font-size: calc(27.3px + 2.6vw);
-    margin-bottom: 30px;
+    margin: 30px 0;
     text-transform: uppercase;
     color: #75b79e;
 }
