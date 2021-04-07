@@ -1,0 +1,14 @@
+.timer {
+    width: 40vw;
+    max-width: 150px;
+    height: 60px;
+    background: rgba(192, 240, 192, 0.6);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 200;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+}

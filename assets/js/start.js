@@ -7,10 +7,11 @@ function start() {
     let iseven;
     do {
 
-        numberOfCards = parseInt(prompt('Digite o número de cartas (número par entre 6 e 14):'));
+        numberOfCards = parseInt(prompt('Digite o número de cartas (número par entre 4 e 14):'));
         iseven = numberOfCards%2 === 0;
-        condition = numberOfCards < 6 || numberOfCards > 14 || numberOfCards === null;
+        condition = numberOfCards < 4 || numberOfCards > 14 || numberOfCards === null;
     } while(condition || !iseven);
 
     generateCards(numberOfCards);
+    timer();
 }
