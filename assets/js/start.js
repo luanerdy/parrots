@@ -13,5 +13,6 @@ function start() {
     } while(condition || !iseven);
 
     generateCards(numberOfCards);
+    time = 0;
     timer();
 }
